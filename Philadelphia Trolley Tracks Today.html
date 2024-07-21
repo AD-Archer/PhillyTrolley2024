@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://www.phillytrolley.org/favicon.ico">
+    <title>Philadelphia Trolley Tracks</title>
+    <meta name="description" content="Philadelphia Trolley Tracks: photos, maps, history, rosters of city and suburban trolleys.">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004b87; /* SEPTA Blue */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #e31837; /* SEPTA Red */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #ffffff;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #c71c31; /* Darker Red on Hover */
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            margin: 10px;
+            max-width: 300px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .card img {
+            max-width: 100%;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            margin: 10px 0;
+            padding: 0 10px;
+        }
+
+        footer {
+            background-color: #004b87; /* SEPTA Blue */
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: text-decoration 0.3s;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer img {
+            margin: 10px 0;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                max-width: 100%;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Philadelphia Trolley Tracks</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="http://www.phillytrolley.org/payenterB.html">History</a>
+        <a href="http://www.phillytrolley.org/payenterC.html">Maps</a>
+        <a href="http://www.phillytrolley.org/payenterD.html">Montgomery County</a>
+        <a href="http://www.phillytrolley.org/payenterE.html">Other Cities</a>
+        <a href="http://www.phillytrolley.org/payenterF.html">Off on a Tangent</a>
+    </nav>
+    <div class="content">
+        <div class="card">
+            <a href="http://www.phillytrolley.org/1980Kcars/1980Kcars.html">
+                <img src="./Philadelphia Trolley Tracks Today_files/Kawasaki_9000_Drawing-2_300px.jpg" alt="Kawasaki trolleys">
+                <div class="card-title">The 1980 Kawasaki trolleys</div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="http://www.phillytrolley.org/route15/girardavenue.html">
+                <img src="./Philadelphia Trolley Tracks Today_files/PCCII dec 28 2005.jpg" alt="Girard Avenue trolley">
+                <div class="card-title">Girard Avenue / Route 15 Trolley</div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="http://www.phillytrolley.org/trackles.html">
+                <img src="./Philadelphia Trolley Tracks Today_files/tracklesses_cutout.jpg" alt="Trackless Trolleys">
+                <div class="card-title">Trackless Trolleys [Electric Trolleybuses]</div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="http://www.phillytrolley.org/vandalism/vandalism00.html">
+                <img src="./Philadelphia Trolley Tracks Today_files/12-Bainbridge missing Rt 23 Switch.jpg" alt="SEPTA Vandalizes Route 23 Trolley">
+                <div class="card-title">SEPTA Vandalizes the Route 23 Trolley</div>
+            </a>
+        </div>
+        <!-- Add more cards -->
+    </div>
+    <footer>
+        <p>Philadelphia Trolley Tracks is NOT the official website of, nor is affiliated in any way with SEPTA or the City of Philadelphia.</p>
+        <p>Site Owner: Mike Szilagyi | Email: <img src="./Philadelphia Trolley Tracks Today_files/email-the-draughtsman.jpg" alt="Email the Draughtsman"></p>
+        <a href="http://www.phillytrolley.org/links.html"><img src="./Philadelphia Trolley Tracks Today_files/1967_David-Wilson_Allegheny-Av-3rd-St_400x174.jpg" alt="David Wilson photo"></a>
+        <p><a href="http://www.phillytrolley.org/links.html">Links</a> | <a href="http://www.phillytrolley.org/contributors/contributors.html">Contributors</a></p>
+    </footer>
+</body>
+</html>
